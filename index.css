@@ -1,0 +1,298 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none !important;
+    color: #777;
+}
+
+.navbar {
+    background: #f0f3f5;
+    margin-bottom: 0;
+}
+
+nav {
+    padding-left: 10%;
+}
+
+.panel {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.row img {
+    width: 128px;
+    display: block;
+    margin: 0 auto;
+    max-height: 179px;
+}
+
+.row p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row span {
+    display: block;
+    text-align: center;
+    margin: 5px auto;
+    color: #31708f;
+}
+
+.carousel-indicators {
+    bottom: -20px;
+}
+
+.carousel-indicators .active {
+    background: #83b0c6;
+}
+
+.carousel-indicators li {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #83b0c6;
+}
+
+.carousel-control {
+    color: #83b0c6;
+    width: 1%;
+}
+
+.carousel-control.right {
+    background: none;
+    right: 0;
+}
+
+.carousel-control.left {
+    background: none;
+    left: 0;
+}
+
+main section:first-child {
+    display: block;
+}
+
+main section {
+    display: none;
+    height: calc(100vh - 50px);
+    overflow: auto;
+    -webkit-overflow-scrolling: touch; /*ISO上增加弹性*/
+}
+
+main section .container .item {
+    padding: 9px;
+    border-bottom: 1px solid #ccc;
+}
+
+main section .container .item a {
+    display: flex;
+}
+
+main section .container .item .cover {
+    width: 170px !important;
+}
+
+main section .container .item .cover img {
+    width: 90%;
+}
+
+main section .container .introduction {
+    flex: 1;
+    margin-left: 9px;
+}
+
+main section .container .introduction .title {
+    color: black;
+}
+
+main section .container .introduction p {
+    padding-top: 5px;
+    color: #A2A2A2;
+}
+
+main section .container .introduction .score {
+    color: #FF5722;
+}
+
+main section .container .icon-loading {
+    display: none;
+    padding: 20px;
+    text-align: center;
+}
+
+main section .container .icon-loading:before {
+    display: inline-block;
+    font-size: 34px;
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+main section .container .bottom {
+    display: none;
+    position: relative;
+    height: 80px;
+    background-color: #9e9e9e1c;
+}
+
+main section .container .bottom .returnTop {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 40px;
+    color: black;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.search .search-wrap {
+    position: relative;
+}
+
+.search .search-wrap input {
+    padding: 8px 10px;
+    width: calc(100% - 70px);
+    height: 30px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+}
+
+.search .search-wrap .button {
+    position: absolute;
+    right: 0;
+    padding: 8px 5px;
+    width: 60px;
+    height: 30px;
+    color: #fff;
+    background-color: #828181;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid #ccc;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer ul li {
+    text-align: center;
+    flex: 1;
+}
+
+footer ul li.active {
+    color: #FF5722;
+}
+
+footer ul li span {
+    padding-top: 5px;
+    display: block;
+}
+
+.detail {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.img, .detail h1 {
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.img {
+    float: left;
+    padding-right: 30px;
+}
+
+.font {
+    font-size: 18px;
+}
+
+.abstract {
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+.abstract h3, .casts h3 {
+    margin-bottom: 20px;
+}
+
+.abstract p {
+    text-indent: 2em;
+}
+
+.movie {
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+    padding-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.movie div {
+    width: 15%;
+    float: left;
+    margin-right: 4%;
+}
+
+.movie div img {
+    width: 100%;
+}
+
+.movie div p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.register {
+    width: 500px;
+}
+
+.form-horizontal {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.buttons {
+    margin-right: 5%;
+}
+
+#lunbo div img {
+    width: 100%;
+    height: 600px;
+}
+
+.carousel-caption {
+    font-size: 24px;
+}

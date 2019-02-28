@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="./jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="./bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <script type="text/javascript" src="./bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.moviedetail').hide();
+            $('.cover').css("width", "162px");
+        });
+    </script>
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="./Movie.html"><span class="glyphicon glyphicon-film"></span> 电影</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="./Rating.html">豆瓣Top250</a></li>
+            <li><a href="./NorthAmerica.html">北美票房排行榜</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="./register.html"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
+            <li><a href="./login.html"><span class="glyphicon glyphicon-log-in"></span> 登录</a></li>
+        </ul>
+    </div>
+</nav>
+<!-- 导航栏 -->
+
+<main>
+    <section id="top250">
+        <div class="container">
+            <ul id="top0"></ul>
+        </div>
+    </section>
+</main>
+<!-- 内容 -->
+<button type="button" class="btn btn-primary btn-lg" style="font-size: 10px;" onclick="location.href='Rating.html'">
+    <span class="glyphicon glyphicon-arrow-left"></span> 返回豆瓣TOP250
+</button>
+<div class="moviedetail">
+    <div class="detail">
+        <h1></h1>
+        <div class="img">
+            <img src="" alt="">
+        </div>
+        <div class="font">
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
+    </div>
+
+    <div class="abstract">
+        <h3></h3>
+        <p></p>
+    </div>
+
+    <div class="movie">
+        <h3></h3>
+        <div class="director">
+            <img src="" alt="">
+            <p></p>
+        </div>
+        <div class="cast">
+            <img src="" alt="">
+            <p></p>
+        </div>
+        <div class="cast">
+            <img src="" alt="">
+            <p></p>
+        </div>
+        <div class="cast">
+            <img src="" alt="">
+            <p></p>
+        </div>
+        <div class="cast">
+            <img src="" alt="">
+            <p></p>
+        </div>
+    </div>
+</div>
+<!-- 电影详情 -->
+
+<script type="text/javascript" src="./movie.js"></script>
+</body>
+</html>
